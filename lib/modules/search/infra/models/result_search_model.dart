@@ -3,8 +3,11 @@ import 'dart:convert';
 import '../../domain/entities/result_search.dart';
 
 class ResultSearchModel extends ResultSearch {
-  ResultSearchModel(
-      {required super.title, required super.content, required super.img});
+  ResultSearchModel({
+    required super.title,
+    required super.content,
+    required super.img,
+  });
 
   Map<String, dynamic> toMap() {
     return {
